@@ -1,11 +1,11 @@
 @import '../../styles/sass/mixins';
 @import '../../styles/sass/variables';
 
-
+// @media (Zoom: 1){
 
 .header{
     max-width: 100%;
-    box-shadow: 5px 5px 20px gray;
+    box-shadow: 5px 5px 20px #f1f0f0;
     height:200px;
     
   }
@@ -18,7 +18,7 @@
     color: white;
     margin-left: 2%;
     padding: 0.8em;
-    width: 10%;
+    width: 75%;
   }
   
   .inp-container input{
@@ -71,6 +71,7 @@
   
     color:rgb(241, 241, 241);
     font-size:1.5em;
+    position: absolute;
     list-style-type:none;
     display:inline-block;
     margin-right:0.5em;
@@ -78,10 +79,9 @@
   
   .cart-wishlist
   {
-    width:7%;
-    margin-top:1.3em;
-    margin-left:60em;
-    
+    width:5%;
+    margin-top:1.7em;
+    margin-left:0.5em;    
   }
 
   .list-icon{
@@ -110,4 +110,4 @@
 
 
   }
-  
+// }
