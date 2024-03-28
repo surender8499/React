@@ -26,12 +26,15 @@ const Products=()=>{
       product={...product,quantity:1};
         dispatch(addCartItem(product));
     }
-
+    
+    const sortedProductData = [...productData].sort((a, b) => 
+    a.product_name.localeCompare(b.product_name));
+ 
     
     return(
  
         <div className='product-container'>
-    {productData.map((eachProduct,index)=>{
+    {sortedProductData.map((eachProduct,index)=>{
 
             
 return(
